@@ -29,6 +29,8 @@ apt-get -y install libgdbm-dev libbz2-dev libreadline5-dev
 apt-get -y install libssl-dev libdb-dev
 apt-get -y install libbz2-dev
 apt-get -y install libcurl4-openssl-dev
+apt-get -y install libxml2-dev
+apt-get -y install libxslt1-dev
 
 apt-get -y install sudo
 echo 'work	ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers
