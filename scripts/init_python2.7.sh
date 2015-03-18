@@ -2,7 +2,7 @@
 
 mkdir /home/work/down/ && cd /home/work/down/
 
-wget http://www.python.org/ftp/python/2.7.5/Python-2.7.5.tgz
+wget --no-check-certificate http://www.python.org/ftp/python/2.7.5/Python-2.7.5.tgz
 tar -xzf Python-2.7.5.tgz
 cd Python-2.7.5
 
