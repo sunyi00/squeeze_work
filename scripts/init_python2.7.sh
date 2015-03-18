@@ -27,11 +27,7 @@ if [ -d "\$HOME/env/bin" ] ; then
 fi
 DELIM
 
-cd /home/work
-
-virtualenv env
-
-source /home/work/env/bin/activate
+echo 'source /home/work/env/bin/activate' >> /home/work/.bashrc
 
 sudo rm -rf /home/work/down
 echo 'we are done....'
